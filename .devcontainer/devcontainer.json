@@ -1,0 +1,16 @@
+{
+    "name": "rag-app",
+    "dockerComposeFile": "../compose.yml",
+    "service": "api",
+    "workspaceFolder": "/app",
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-python.python",
+          "ms-python.vscode-pylance",
+          "ms-azuretools.vscode-docker",
+          "charliermarsh.ruff"
+        ]
+      }
+    }
+  }
